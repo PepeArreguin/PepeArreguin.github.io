@@ -1,0 +1,63 @@
+
+.btn-gradient{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffacac+0,ff3737+100 */
+background: #ffacac; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffacac 0%, #ff3737 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffacac 0%,#ff3737 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffacac 0%,#ff3737 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffacac', endColorstr='#ff3737',GradientType=0 ); /* IE6-9 */
+
+color: white;
+}
+
+.text-gradient-2{
+background: -webkit-linear-gradient(#ffacac, #ff3737);
+  background-clip: border-box;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+}
+
+.photo-home{
+    width: 400px;
+}
+
+.display-0{
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.display-0 h1{
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+/* Galeria */
+
+section.cta{
+    background-image: url("../assets/img/img_1.jpg");
+    
+
+}
+
+/*Contáctanos*/
+.bg-gradient-primary-to-secondary{
+    background: linear-gradient(45deg, #ffacac, #ff3737) !important;
+
+}
+
+.btn-primary.disabled{
+    background-color: red;
+    border-color: red;
+}
+
+.margin-icon-form{
+    color: white;
+    margin: 0 10px 0 0;
+
+}
